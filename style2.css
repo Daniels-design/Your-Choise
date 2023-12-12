@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: valor;
+    src: url(fontes/indoor_design/Indoor\ Design.otf);
+}
+@font-face {
+    font-family: grade;
+    src: url(fontes/stretch_pro/StretchPro.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(imagens/background-body.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+section.signo > p.nome {
+    color: white;
+    font-size: 2em;
+    font-family: 'grade';
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-30%, -20%);
+}
+section.signo > p.texto {
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    top: 40%;
+    left: 41%;
+    transform: translate(-40%, -40%);
+    text-align: justify;
+}
+section.video > h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section.video > div.fra {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p.back {
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+}

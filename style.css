@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: valor;
+    src: url(fontes/indoor_design/Indoor\ Design.otf);
+}
+@font-face {
+    font-family: grade;
+    src: url(fontes/stretch_pro/StretchPro.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(imagens/background-body.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: url(https://i.pinimg.com/originals/37/8f/19/378f19b15998a4e990d19cf4b43b10eb.gif)center center fixed;
+    box-shadow: 1px 3px 20px 3px black;
+    height: 90vh;
+    width: 98.8vw;
+    margin-bottom: 50px;
+}
+header > h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'grade';
+    
+    text-shadow:2px 2px 20px black;
+}
+header > i {
+    color: white;
+    font-size: 2.5em;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    transition-duration: 1s;
+}
+
+header >i:hover {
+    font-size: 2.9em;
+    transition-duration: 1s;
+}
+div.container {
+    display: inline-flex;
+    margin: 20px -1% 10px 8%;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 2px 10px 0px rgb(255, 255, 255);
+}
+
+div.conteudo {
+    background-color: black;
+    height: 10em;
+    width: 15em;
+    transition-duration: 1s;
+}
+div.conteudo:hover{
+    font-size: 1.2em;
+    transition-duration: 1s;
+}
+#c1 {
+    background: url(imagens/aries.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c2 {
+    background: url(imagens/taurus.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c3 {
+    background: url(imagens/gemeos.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c4 {
+    background: url(imagens/cancer.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c5{
+    background: url(imagens/leao1.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c6{
+    background: url(imagens/virgo2.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c7{
+    background: url(imagens/libra3.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c8{
+    background: url(imagens/subzero4.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c9{
+    background: url(imagens/sargi5.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c10{
+    background: url(imagens/cap6.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c11{
+    background: url(imagens/aqua7.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+#c12{
+    background: url(imagens/peixe8.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+footer {
+    margin-top: 90px;
+    height: 15vh;
+    width: 98vw;
+}
+footer > p.dese {
+    color: white; 
+    text-align: center;
+    padding: 20px;
+    font-family: 'grade';
+    font-weight: normal;
+}
+footer > a>p.dese2 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
