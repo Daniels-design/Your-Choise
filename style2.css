@@ -59,7 +59,6 @@ p.back {
     text-decoration: underline;
     font-style: italic;
 }
-
 @media screen and (max-width:303px) {
     section.signo > p.nome {
         position: relative;
@@ -120,19 +119,25 @@ p.back {
         max-width: 256px;
     }
     div.fra > iframe {
-        max-width: 280px;
-        max-height: 200px;
+        max-width: 317px;
+        max-height: 180px;
+    }
+    section.video > div.fra {
+        position: absolute;
+        top: 83%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     section.video > h1 {
     position: absolute;
-    top: 56%;
+    top: 62%;
     left: 49%;
     transform: translate(-50%, -50%);
 
     }
     a > p.back {
     position: absolute;
-    top: 93%;
+    top: 98%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -170,6 +175,48 @@ p.back {
     position: absolute;
     top: 93%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
+@media screen and (min-width: 220px) and (max-width: 302px) {
+    section.signo > p.nome {
+        position: relative;
+        left: 18%;
+        top: 53%;
+        transform: translate(-22%, 128%);
+        margin: 0;
+        padding: 0;
+        max-width: 200px;
+    }
+    section.signo > p.texto {
+        position: relative;
+        left: 34%;
+        top: 50%;
+        transform: translate(-30%, 25%);
+        font-weight: normal;
+        max-width: 197px;
+    }
+    div.fra > iframe {
+        max-width: 240px;
+        max-height: 128px;
+    }
+    section.video > div.fra {
+        position: absolute;
+        top: 84%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    section.video > h1 {
+    position: absolute;
+    top: 63%;
+    left: 53%;
+    transform: translate(-50%, -18%);
+
+    }
+    a > p.back {
+    position: absolute;
+    top: 97%;
+    left: 51%;
     transform: translate(-50%, -50%);
     }
 }
